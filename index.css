@@ -1,11 +1,15 @@
 body{
   margin: 0;
 }
-.header,
-.header * {
+
+header{
+  
   background-image: url('burguer_app.jpg');
   background-repeat: no-repeat;
   margin:auto 0;
+}
+.header,
+.header * {
   box-sizing: border-box;
 }
 .header {
