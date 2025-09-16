@@ -11,8 +11,8 @@ body{
 .container, .bg-img{
   display:flex;
   position: relative;
-  width: 200%;
-  height:200%;
+  max-width: 20%;
+  max-height:20%;
   margin:auto 25px;
   object-fit: contain;
 }
