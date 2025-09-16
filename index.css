@@ -1,0 +1,52 @@
+body {
+    .header,
+.header * {
+  box-sizing: border-box;
+}
+.header {
+  position: relative;
+}
+.bg-img {
+  background: #ffffff;
+  width: 600px;
+  height: 167px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.ferks-guare-ke-zd-wf-yd-ow-unsplash-1 {
+  width: 600px;
+  height: 400px;
+  position: absolute;
+  left: 0px;
+  top: -153px;
+  object-fit: cover;
+}
+.jimmy-s-diner {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Smythe-Regular", sans-serif;
+  font-size: 39px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 46.07px;
+  top: 46px;
+  width: 169.28px;
+}
+.the-best-burgers-and-pizzas-in-town {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Smythe-Regular", sans-serif;
+  font-size: 22.42160415649414px;
+  line-height: 13.8px;
+  font-weight: 400;
+  position: absolute;
+  left: 46.07px;
+  top: 89px;
+  width: 275.46px;
+  height: 8px;
+}
+
+} 
