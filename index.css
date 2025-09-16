@@ -8,9 +8,10 @@ body{
 }
 
 .bg-img {
-  background: #ffffff;
-  width: 250px;
-  height: 125px;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
   
   
   
