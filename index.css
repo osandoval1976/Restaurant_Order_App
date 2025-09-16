@@ -13,6 +13,9 @@ body{
 
 .bg-img {
 display:flex;
+background-size: auto;
+height: 200px;
+width:auto;
 }
   
   
