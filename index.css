@@ -9,8 +9,8 @@ body{
     
 }
 .container{
+  display:flex;
   position: absolute;
-  background-size:cover;
   width: 100px;
   height:-50%;
   margin: 21px 0 ;
