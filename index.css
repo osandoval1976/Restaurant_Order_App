@@ -10,7 +10,9 @@ body{
   display: flex;
   position: absolute;
   width: 100px;
-  height: 50%;
+  height:-50%;
+  top: 0;
+  bottom: -200px;
 }
 .bg-img {
   display: flex;
