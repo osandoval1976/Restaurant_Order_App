@@ -10,7 +10,7 @@ body{
 }
 .container{
   display:flex;
-  position: absolute;
+  position: relative;
   width: 100px;
   height:50%;
   margin:auto 25px;
