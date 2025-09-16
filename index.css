@@ -9,6 +9,8 @@ body{
   position: relative;
 }
 .bg-img {
+  background-image: url('burguer_app.jpg');
+  background-repeat: no-repeat;
   background: #ffffff;
   width: 100;
   height: 25;
