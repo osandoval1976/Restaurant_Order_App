@@ -6,7 +6,7 @@ body{
   box-sizing: border-box;
 }
 .img_container {
-  width: "100";
+  width: "25";
   height: "25";
   position: relative;
 }
