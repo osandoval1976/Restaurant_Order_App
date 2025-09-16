@@ -8,17 +8,14 @@ body{
   
     
 }
-.container, .bg-img{
+
+.bg-img {
   display:flex;
   position: relative;
   max-width: 20%;
   max-height:20%;
   margin:auto 25px;
-  object-fit: contain;
-}
-.bg-img {
-  display: flex;
-  
+  object-fit: contain;  
 }
   
   
