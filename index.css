@@ -6,18 +6,13 @@ body{
 .header * {
   display: flex;
   box-sizing: border-box;
-  
+  height: 50%;
+  width: auto;
     
 }
 
 .bg-img {
-  display:flex;
-  position: relative;
-  max-width: 20%;
-  max-height:20%;
-  margin:auto 25px;
-  object-fit: contain;  
-  overflow-clip-margin:inherit;
+display:flex;
 }
   
   
