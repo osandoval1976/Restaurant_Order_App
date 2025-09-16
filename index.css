@@ -10,7 +10,7 @@ body {
   background: #ffffff;
   width: 100px;
   height: 25px;
-  position: absolute;
+  position: relative;
   left: 0px;
   top: 0px;
   overflow: hidden;
