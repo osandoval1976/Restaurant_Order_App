@@ -12,7 +12,7 @@ body{
   display: flex;
   position: absolute;
   background-image: url('./burguer_app.jpg');
-  background-repeat: no-repeat;
+  background-size:cover;
   width: 100px;
   height:-50%;
   margin: 21px 0 ;
