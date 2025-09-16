@@ -10,19 +10,14 @@ body{
 }
 .bg-img {
   background: #ffffff;
-  width: 100%;
-  height: 25%;
+  width: 100;
+  height: 25;
   position: relative;
   bottom: 50px;
   top: 50px;
   padding: 0 auto;
 }
-.ferks-guare-ke-zd-wf-yd-ow-unsplash-1 {
-  
-  width: 100px;
-  height: 25px;
-  
-}
+
 .jimmy-s-diner {
   color: #ffffff;
   text-align: center;
