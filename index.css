@@ -8,9 +8,9 @@ body{
 
 .bg-img {
   background: #ffffff;
-  width: "250";
-  height: "125";
-   position: relative;
+  width: 250px;
+  height: 125px;
+  position: relative;
   bottom: -50px;
   top: 0px;
   }
