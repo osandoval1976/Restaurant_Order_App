@@ -4,7 +4,7 @@ body{
 .header,
 .header * {
   background-image: url('burguer_app.jpg');
-  margin:0 auto 0 auto ;
+  margin:0 auto ;
   background-repeat: no-repeat;
   box-sizing: border-box;
 }
