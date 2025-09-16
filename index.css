@@ -5,6 +5,8 @@ body{
 .header * {
   display: flex;
   box-sizing: border-box;
+  background-image: url('burguer_app.jpg');
+  background-repeat: no-repeat;
 }
 .container{
   display: flex;
