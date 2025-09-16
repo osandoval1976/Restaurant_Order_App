@@ -9,7 +9,6 @@ body{
     
 }
 .container{
-  display: flex;
   position: absolute;
   background-image: url('./burguer_app.jpg');
   background-size:cover;
