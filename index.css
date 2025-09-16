@@ -8,8 +8,8 @@ body{
   background-image: url('burguer_app.jpg');
   background-repeat: no-repeat;
   margin-top: 0%;
-  margin-bottom: 50%;
-  overflow:auto;
+  margin-bottom: -200px;
+  
 }
 .container{
   display: flex;
