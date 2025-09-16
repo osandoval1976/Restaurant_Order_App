@@ -5,15 +5,12 @@ body{
 .header * {
   box-sizing: border-box;
 }
-.img_container {
-  width: "25";
-  height: "25";
-  position: relative;
-}
+
 .bg-img {
   background: #ffffff;
-  
-  position: relative;
+  width: "250";
+  height: "125";
+   position: relative;
   bottom: -50px;
   top: 0px;
   }
