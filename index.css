@@ -11,9 +11,8 @@ body{
     
 }
 
-.bg-img {
+.container, .bg-img {
 display:flex;
-
 max-width:50%;
 max-height: 50%;
 }
