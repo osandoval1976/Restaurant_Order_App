@@ -15,8 +15,7 @@ body{
   background-repeat: no-repeat;
   width: 100px;
   height:-50%;
-  top: 0;
-  bottom: -200px;
+  margin: 21px 0 ;
 }
 .bg-img {
   display: flex;
