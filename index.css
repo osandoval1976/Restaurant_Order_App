@@ -15,7 +15,7 @@ body{
   position: relative;
   bottom: 50px;
   top: 50px;
-  padding: auto 0;
+  padding: 0 25px 0 25px;
 }
 
 .jimmy-s-diner {
