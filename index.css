@@ -1,8 +1,6 @@
 body{
   margin: 0;
 }
-
-
 .header,
 .header * {
   box-sizing: border-box;
@@ -17,7 +15,7 @@ body{
   position: relative;
   bottom: 50px;
   top: 50px;
-  padding: 0 auto;
+  padding: auto 0;
 }
 
 .jimmy-s-diner {
