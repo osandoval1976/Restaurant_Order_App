@@ -13,9 +13,9 @@ body{
 
 .bg-img {
 display:flex;
-background-size: auto;
-height: 200px;
-width:auto;
+
+max-width:50%;
+max-height: 50%;
 }
   
   
