@@ -5,13 +5,14 @@ body{
 .header * {
   display: flex;
   box-sizing: border-box;
-  background-image: url('burguer_app.jpg');
-  background-repeat: no-repeat;
+  
     
 }
 .container{
   display: flex;
   position: absolute;
+  background-image: url('burguer_app.jpg');
+  background-repeat: no-repeat;
   width: 100px;
   height:-50%;
   top: 0;
