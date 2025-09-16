@@ -14,7 +14,7 @@ body{
   width: 100px;
   height:50%;
   margin:auto 25px;
-  
+  object-fit: contain;
 }
 .bg-img {
   display: flex;
