@@ -2,8 +2,7 @@ body{
   display: flex;
   margin: auto;
 }
-.header,
-.header * {
+.header{
   display: flex;
   box-sizing: border-box;
   height: 50%;
