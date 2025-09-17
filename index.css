@@ -26,6 +26,7 @@ margin: 0 auto;
 }  
 
 .jimmy-s-diner {
+  display: inline;
   color: #d44a14;
   text-align:left;
   font-family: "Smythe-Regular", sans-serif;
@@ -38,6 +39,7 @@ margin: 0 auto;
   left:900px;
 }
 .the-best-burgers-and-pizzas-in-town {
+  display: inline;
   color: #e92f2f;
   text-align:justify;
   font-family: "Smythe-Regular", sans-serif;
