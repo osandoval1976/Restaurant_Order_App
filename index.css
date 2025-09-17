@@ -14,6 +14,7 @@ border-radius: 5px solid blue;
 width:5350px;
 height: 50%;
 left:15px;
+position: absolute;
 }
   
 .bg-img{
