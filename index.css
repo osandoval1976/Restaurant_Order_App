@@ -1,6 +1,7 @@
 body{
   display: flex;
-  margin: auto;
+  align-content: center;
+  margin: 0;
 }
 .header{
   display: flex;
