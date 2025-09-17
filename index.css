@@ -37,7 +37,7 @@ border: 2px solid blue;
 }
 .the-best-burgers-and-pizzas-in-town {
   color: #e92f2f;
-  text-align: left;
+  text-align:justify;
   font-family: "Smythe-Regular", sans-serif;
   font-size: 35.42160415649414px;
   line-height: 35.8px;
