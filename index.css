@@ -4,20 +4,22 @@ body {
   
 }
 
-.header{
+.header, container{
 display:flex;
 border: 2px solid blue;
-position: relative;
+position: absolute;
 margin: 0 auto;
 
 }
-  
+.container{
+  margin: 0 auto;
+}  
 .bg-img{
   display:flex;
   width:  800px;
   height: 350px;
   margin: auto 0;
-  left: 300px;
+  
 }  
 
 .jimmy-s-diner {
@@ -30,19 +32,19 @@ margin: 0 auto;
   font-weight: 400;
   position: relative;
   top: 50px;
-  right: 300px;;
+  right:3px;
 }
 .the-best-burgers-and-pizzas-in-town {
   display: inline;
   color: #e92f2f;
   text-align:justify;
   font-family: "Smythe-Regular", sans-serif;
-  font-size: 35.42160415649414px;
+  font-size: 25.42160415649414px;
   line-height: 35.8px;
-  font-weight: 400;
+  font-weight: 300;
   position: relative;
-  right: 300.07px;
-  top: 89px;
+  left: -99.07px;
+  top: 72px;
   padding-right: 10px;
 }
 
