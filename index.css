@@ -1,4 +1,4 @@
-body{
+bbody{
   display: flex;
   margin: 0;
 }
@@ -6,21 +6,20 @@ body{
   display: flex;
   
   
-  
 }
 
 .container {
 display:flex;
 border-radius: 5px solid blue;
-width:350px;
-height: auto;
-left:55px;
+width:5350px;
+height: 50%;
+left:15px;
 }
   
 .bg-img{
   display:flex;
-  height:auto;
-  width:200px;
+  width: 800px;
+  height: 550px;
  
 }  
 
@@ -40,11 +39,11 @@ left:55px;
   color: #e92f2f;
   text-align: left;
   font-family: "Smythe-Regular", sans-serif;
-  font-size: 22.42160415649414px;
-  line-height: 13.8px;
+  font-size: 35.42160415649414px;
+  line-height: 35.8px;
   font-weight: 400;
   position: relative;
-  left: 46.07px;
+  left: 346.07px;
   top: 89px;
   width: 275.46px;
   height: 8px;
