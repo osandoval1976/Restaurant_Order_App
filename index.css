@@ -11,7 +11,7 @@ bbody{
 .container {
 display:flex;
 border-radius: 5px solid blue;
-width:535px;
+width:800px;
 height: 50%;
 left:15px;
 position: absolute;
@@ -43,7 +43,7 @@ position: absolute;
   line-height: 35.8px;
   font-weight: 400;
   position: relative;
-  left: 346.07px;
+  left: 500.07px;
   top: 89px;
   width: 275.46px;
   height: 8px;
