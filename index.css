@@ -11,8 +11,8 @@ body{
   bottom: 600px;  
 }
 
-.container, .bg-img {
-display:flexbox;
+.container {
+display:flex;
 max-width:50%;
 max-height: 50%;
 }
