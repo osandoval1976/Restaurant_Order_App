@@ -12,15 +12,15 @@ body{
 .container {
 display:flex;
 border-radius: 5px solid blue;
-width:100px;
-height: 100px;
+width:350px;
+height: 100%;
 left:15px;
 }
   
 .bg-img{
   display:flex;
-  width: 200px;
-  height: 50%;
+  height:auto;
+  width:200px;
  
 }  
 
