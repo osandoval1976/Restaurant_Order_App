@@ -9,7 +9,7 @@ bbody{
 }
 
 .container {
-display:flex;
+display:inline-flexbox;
 border-radius: 5px solid blue;
 width:535px;
 height: 50%;
@@ -32,7 +32,6 @@ position: absolute;
   line-height: 24px;
   font-weight: 400;
   position: absolute;
-  right: 46.07px;
   top: 50px;
   width: 169.28px;
 }
