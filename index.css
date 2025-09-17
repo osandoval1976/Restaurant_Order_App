@@ -4,21 +4,22 @@ body {
   
 }
 
-.header, container{
-display:flex;
+.header{
+display:flexbox;
 border: 2px solid blue;
 position: absolute;
-margin: 0 auto;
+
 
 }
 .container{
-  margin: 0 auto;
+  margin: auto 0;
+  
 }  
 .bg-img{
   display:flex;
   width:  800px;
   height: 350px;
-  margin: auto 0;
+  
   
 }  
 
