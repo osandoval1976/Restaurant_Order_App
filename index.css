@@ -12,7 +12,7 @@ body{
 }
 
 .container, .bg-img {
-display:flex;
+display:flexbox;
 max-width:50%;
 max-height: 50%;
 }
