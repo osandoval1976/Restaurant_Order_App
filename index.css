@@ -1,6 +1,7 @@
-bbody{
+body {
   display: flex;
   margin: 0;
+  
 }
 .header{
   display: flex;
@@ -26,7 +27,7 @@ position: absolute;
 
 .jimmy-s-diner {
   color: #2e8851;
-  text-align: center;
+  text-align:justify;
   font-family: "Smythe-Regular", sans-serif;
   font-size: 39px;
   line-height: 24px;
