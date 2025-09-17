@@ -11,7 +11,7 @@ body{
 .container {
 display:flex;
 border-radius: 5px solid blue;
-width:200px;
+width:400%;
 height: 50%;
 left:15px;
 }
