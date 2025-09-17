@@ -15,7 +15,7 @@ margin: 0 auto;
 .bg-img{
   display:flex;
   width:  800px;
-  height: 550px;
+  height: 350px;
  
 }  
 
@@ -30,7 +30,7 @@ margin: 0 auto;
   position: absolute;
   top: 50px;
   width: 169.28px;
-  left:900px;
+  left:1200px;
 }
 .the-best-burgers-and-pizzas-in-town {
   display: inline;
@@ -41,7 +41,7 @@ margin: 0 auto;
   line-height: 35.8px;
   font-weight: 400;
   position: relative;
-  left: 900.07px;
+  left: 1200.07px;
   top: 89px;
   width: 275.46px;
   height: 8px;
