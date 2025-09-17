@@ -17,7 +17,10 @@ max-width:50%;
 max-height: 50%;
 }
   
-  
+.bg-img{
+  display:flex;
+  margin: 0px auto 100px 0px;
+}  
 
 .jimmy-s-diner {
   color: #ffffff;
