@@ -9,7 +9,7 @@ body{
   
 }
 
-.container, .bg-img {
+.bg-img {
 display:flex;
 width:200px;
 height: 50%;
