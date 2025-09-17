@@ -9,7 +9,7 @@ bbody{
 }
 
 .container {
-display:inline-flexbox;
+display:flex;
 border-radius: 5px solid blue;
 width:535px;
 height: 50%;
