@@ -29,7 +29,7 @@ background-color: #d44a14;
   font-weight: 400;
   position: relative;
   top: 50px;
-  left: 300px;;
+  right: 300px;;
 }
 .the-best-burgers-and-pizzas-in-town {
   display: inline;
@@ -40,7 +40,7 @@ background-color: #d44a14;
   line-height: 35.8px;
   font-weight: 400;
   position: relative;
-  left: 300.07px;
+  right: 300.07px;
   top: 89px;
   padding-right: 10px;
 }
