@@ -5,15 +5,14 @@ body{
 }
 .header{
   display: flex;
-  height: 50%;
-  width: 100%;
-  bottom: 600px;  
+  
+  
 }
 
 .container, .bg-img {
 display:flex;
-max-width:50%;
-max-height: 50%;
+width:200px;
+height: 50%;
 }
   
 .bg-img{
