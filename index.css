@@ -16,7 +16,7 @@ position: absolute;
   
 }  
 .bg-img{
-  display:flex;
+  display:flexbox;
   width:  800px;
   height: 350px;
   
