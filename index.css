@@ -12,8 +12,8 @@ position: absolute;
 }
 .container{
   display: flex;
-  position: relative;
-  margin: auto 0;
+  position: absolute;
+  margin: 0 950px 0 950px;
   
 }  
 .bg-img{
@@ -32,7 +32,7 @@ position: absolute;
   font-size: 39px;
   line-height: 24px;
   font-weight: 400;
-  position: relative;
+  position: absolute;
   bottom: 300px;
   left:13px;
 }
@@ -44,7 +44,7 @@ position: absolute;
   font-size: 25.42160415649414px;
   line-height: 35.8px;
   font-weight: 300;
-  position: relative;
+  position: absolute;
   left: -99.07px;
   top: 72px;
   padding-right: 10px;
