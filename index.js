@@ -19,4 +19,4 @@ newElem = `
 renderHTML.innerHTML += `<p>${newArray}</p>`
 }
 
-
+console.log(renderHTML())
