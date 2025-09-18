@@ -1,2 +1,4 @@
-import {menuArray} from "./data.js"
-console.log(menuArray)
+import {menuArray} from './data.js'
+
+const renderHtml = document.getElementById('renderHTML')
+console.log(renderHtml)
