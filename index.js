@@ -6,17 +6,22 @@ function arrayHTML(){
     
 const newArray = menuArray.forEach((items) =>{
 return newElem = `
+<section class= "item">
 <div>
-<span>${items.name}</span>
-<p>${items.ingredients}</p>
-<P>${items.id}</p>
-<p>${items.emoji}</p>
-</div>`
-
-
+<h1>${items.name}</h1>
+<h2>${items.ingredients}</h2>
+<h3>${items.id}</h3>
+<h4>${items.emoji}</h4>
+<p>${items.price}</p>
+</div>
+</section>
+`
 
 }).join('')
 renderHtml.innerHTML += `<p>${newArray()}</p>`
 }
 
 
+function renderHTML(){
+    return arrayHTML()
+}
