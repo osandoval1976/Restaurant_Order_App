@@ -1,29 +1,25 @@
 import {menuArray} from './data.js'
-const renderHtml = document.getElementById('newHTML')
-let newElem = '' 
+const newHTML =  document.getElementById('newHTML')
 
-function arrayHTML(){
-   
-const newArry = menuArray.forEach((items) =>{
-newElem = `
-<section class= "item">
-<div>
+let newElem = [] 
+function arrayHTML(item){
+return item.forEach((items) =>{
+ newElem.push(`
+<section class="item">
+<div class="nArray">
 <h1>${items.name}</h1>
-<h2>${items.ingredients}</h2>
-<h3>${items.id}</h3>
-<h4>${items.emoji}</h4>
+<p>${items.ingredients}</p>
+<h2>${items.id}</h2>
+<h3>${items.emoji}</h3>
 <p>${items.price}</p>
 </div>
 </section>
-`
-
+`)
+newHTML.innerHTML = `<p>${newElem}</p>`
 })
-renderHtml.innerHTML += `<p>${newArry}</p>`
+
+
 }
+arrayHTML(menuArray)
 
 
-function renderHTML(){
-    return arrayHTML()
-}
-
-renderHTML()

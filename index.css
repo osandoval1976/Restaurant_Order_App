@@ -50,7 +50,7 @@ position: absolute;
   padding-right: 10px;
 }
 
-.item{
+.item, .nArray{
 display: flex;
 position: relative;
 top: 405px;
