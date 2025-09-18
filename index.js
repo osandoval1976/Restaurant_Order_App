@@ -1,11 +1,11 @@
 import {menuArray} from './data.js'
 const renderHtml = document.getElementById('newHTML')
-const newElem = ''
+let newElem = '' 
 
 function arrayHTML(){
-    
-const newArray = menuArray.forEach((items) =>{
-return newElem = `
+   
+const newArry = menuArray.forEach((items) =>{
+newElem = `
 <section class= "item">
 <div>
 <h1>${items.name}</h1>
@@ -17,11 +17,13 @@ return newElem = `
 </section>
 `
 
-}).join('')
-renderHtml.innerHTML += `<p>${newArray()}</p>`
+})
+renderHtml.innerHTML += `<p>${newArry}</p>`
 }
 
 
 function renderHTML(){
     return arrayHTML()
 }
+
+renderHTML()
