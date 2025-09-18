@@ -1,4 +1,3 @@
-
 .header,
 .header * {
   box-sizing: border-box;
@@ -13,13 +12,13 @@ position: absolute;
 .container{
   display: flex;
   position: absolute;
-  margin: 0 950px 0 950px;
+  margin: 0 auto;
   
 }  
 .bg-img{
   display:flexbox;
-  width:  800px;
-  height: 350px;
+  width:  400px;
+  height: 150px;
   
   
 }  
@@ -52,8 +51,12 @@ position: absolute;
 
 .item, .nArray{
 display: flex;
+flex-direction: column;
 position: relative;
-top: 405px;
-color: blue;
+top: 50px;
 margin: 0 10px;
+
 }
+ .item{
+  border-bottom: gray;
+ }
