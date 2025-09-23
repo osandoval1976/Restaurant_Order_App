@@ -1,13 +1,14 @@
 import {menuArray} from './data.js'
 const newHTML =  document.getElementById('newHTML')
-
+const newList =  document.getElementById('newList')
 let newElem = [] 
+
+/* Map Method dinamicaly throught items*/
+
 function arrayHTML(){
  const newARRy = menuArray.map((items) =>{
  return newElem =`
-
 <div class="item">
-
 <div class="ctn">
 <p class="btn">+</p>
 <h1 class="emoji">${items.emoji}</h1>
