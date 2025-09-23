@@ -4,17 +4,19 @@ const newHTML =  document.getElementById('newHTML')
 let newElem = [] 
 function arrayHTML(){
  const newARRy = menuArray.map((items) =>{
- return newElem = (`
-<section>
-<div class="nArray">
-<h1>${items.name}</h1>
-<span>${items.ingredients}</span>
-<h2>${items.id}</h2>
-<h3 class="emoji">${items.emoji}</h3>
-<span>${items.price}</span>
+ return newElem =`
+
+<div class="item">
+
+<div class="ctn">
+<p class="btn">+</p>
+<h1 class="emoji">${items.emoji}</h1>
+<p class"name">${items.name}</p>
+<p class"ingredients">${items.ingredients}</p>
+<p class"price">${items.price}</p>
 </div>
-</section>
-`)
+</div>
+`
 
 }).join(' ')
 newHTML.innerHTML = `<p>${newARRy}</p>`
