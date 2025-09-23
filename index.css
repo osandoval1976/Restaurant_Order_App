@@ -59,30 +59,30 @@ margin-bottom: 12px;
   }
   
   
-  .item >.ctn {
+   .item >.ctn {
   margin: 195px 0 -185px 0;
   padding-top:-7px;
   padding-bottom: 15px;
-  border-bottom: 1px solid red;
+  border-bottom: 1px solid gray;
   ;
 }
 
 .ctn > .emoji{
 float: left;
-margin: 25px 20px;
-padding: 18px auto;
-font-size: 45px;
+margin: 18px 20px;
+
 }
 
 .ctn .btn{
   border-radius: 50%;
-  border:2px solid lightgrey;
+  border:1.5px solid lightgrey;
   text-align: center;
-  font-size: 15px;
-  padding: 5px 10px;
+  font-size: 10px;
+  padding: 12px 12px;
   margin-left: 350px;
-  
+  margin-bottom: -25px;
 }
 
   
+
 
