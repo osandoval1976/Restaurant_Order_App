@@ -1,58 +1,108 @@
-body {
-  
-  margin: 0;
-  
-}
 
+ .header,
+.header * {
+  box-sizing: border-box;
+}
 .header{
-display:flexbox;
+display:flex;
 border: 2px solid blue;
 position: absolute;
-
-
+width: 405px;
+height: 155px;
+margin-bottom: 12px;
 }
 .container{
-  margin: auto 0;
+  display: flex;
+  position: absolute;
+  
   
 }  
 .bg-img{
   display:flexbox;
-  width:  800px;
-  height: 350px;
+  width:  400px;
+  height: 150px;
   
   
 }  
 
 .jimmy-s-diner {
   display: inline;
-  color: #d44a14;
+  color: #ffffff;
   text-align:left;
   font-family: "Smythe-Regular", sans-serif;
-  font-size: 39px;
+  font-size: 19px;
   line-height: 24px;
   font-weight: 400;
-  position: relative;
-  top: 50px;
-  right:3px;
+  position: absolute;
+  bottom: 60px;
+  left:13px;
 }
 .the-best-burgers-and-pizzas-in-town {
   display: inline;
-  color: #e92f2f;
+  color: #ffffff;
   text-align:justify;
   font-family: "Smythe-Regular", sans-serif;
-  font-size: 25.42160415649414px;
+  font-size: 15.42160415649414px;
   line-height: 35.8px;
   font-weight: 300;
-  position: relative;
-  left: -99.07px;
-  top: 72px;
+  position: absolute;
+  left: 9.07px;
+  top: 12px;
   padding-right: 10px;
 }
-
+ 
 .item{
-display: flex;
-position: relative;
-top: 405px;
-color: blue;
-margin: 0 10px;
+  
+  margin-top: 5px;
+  line-height: 5%;
+  font-size: 9.5px;
+  
+  }
+  
+  
+  .item >.ctn {
+  margin: 195px 0 -185px 0;
+  padding-top:-17px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid gray;
+  ;
 }
+
+.ctn > .emoji{
+float: left;
+margin: 18px 32px;
+font-size: 42px;
+}
+
+.ctn .btn{
+  border-radius: 50%;
+  border:1.5px solid lightgrey;
+  text-align: center;
+  font-size: 95%;
+  padding: 15px 12px;
+  margin-left: 350px;
+  margin-bottom: -33px;
+}
+
+/*.Hidden{
+ display: none;
+}  */
+ 
+ .box{
+  display: flex;
+  margin: 195px 0 -185px 5px;
+  padding-top:-17px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid gray;
+  margin-left:45px;
+  font-size: 8px;
+ }
+ .total{
+  display: flex;
+  margin: 195px 0 -185px 5px;
+  padding-top:-17px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid gray;
+  margin-left:45px;
+  font-size: 8px;
+ }

@@ -1,22 +1,35 @@
 import {menuArray} from './data.js'
-
-const renderHtml = document.getElementById('newHTML')
-const newElem = ''
-function renderHTML(item){
-const newArray = item.map((items) =>{
-newElem = `
-<div>
-<span>${items.name}</span>
-<p>${items.ingredients}</p>
-<P>${items.id}</p>
-<p>${items.emoji}</p>
-
-</div>`
+console.log(menuArray)
+const newFeed = document.getElementById('newList')
+const newTotal = document.getElementById('newTotal')
+let newElem = []
+let newRol = ''
 
 
 
-}).join('')
-renderHTML.innerHTML += `<p>${newArray}</p>`
+/* looping dinamicaly throught items*/
+function feedHTML(item){
+   
+let newRender = ''
+return item.forEach(function(items){
+newRender = `
+<div class="item">
+<div class="ctn" >
+<p class="btn">+</p>
+<h1 class="emoji">${items.emoji}</h1>
+<p class="name">${items.name}</p>
+<p class="ingredients" >${items.ingredients}</p>
+<p class="price" > $${items.price}</p>
+<p class="Hidden" >${items.id}</p>
+</div>
+</div>
+` 
+})
+
 }
-
+console.log(feedHTML)
+function render(){
+document.getElementById('newHTML').innerHTML = feedHTML(menuArray)
+}
+render()
 
