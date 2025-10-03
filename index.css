@@ -1,8 +1,9 @@
-
- .header,
-.header * {
-  box-sizing: border-box;
+body {
+  
+  margin: 0;
+  
 }
+
 .header{
 display:flex;
 border: 2px solid blue;
@@ -52,57 +53,9 @@ margin-bottom: 12px;
 }
  
 .item{
-  
-  margin-top: 5px;
-  line-height: 5%;
-  font-size: 9.5px;
-  
-  }
-  
-  
-  .item >.ctn {
-  margin: 195px 0 -185px 0;
-  padding-top:-17px;
-  padding-bottom: 12px;
-  border-bottom: 1px solid gray;
-  ;
+display: flex;
+position: relative;
+top: 405px;
+color: blue;
+margin: 0 10px;
 }
-
-.ctn > .emoji{
-float: left;
-margin: 18px 32px;
-font-size: 42px;
-}
-
-.ctn .btn{
-  border-radius: 50%;
-  border:1.5px solid lightgrey;
-  text-align: center;
-  font-size: 95%;
-  padding: 15px 12px;
-  margin-left: 350px;
-  margin-bottom: -33px;
-}
-
-/*.Hidden{
- display: none;
-}  */
- 
- .box{
-  display: flex;
-  margin: 195px 0 -185px 5px;
-  padding-top:-17px;
-  padding-bottom: 12px;
-  border-bottom: 1px solid gray;
-  margin-left:45px;
-  font-size: 8px;
- }
- .total{
-  display: flex;
-  margin: 195px 0 -185px 5px;
-  padding-top:-17px;
-  padding-bottom: 12px;
-  border-bottom: 1px solid gray;
-  margin-left:45px;
-  font-size: 8px;
- }
