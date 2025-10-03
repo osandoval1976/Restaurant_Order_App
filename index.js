@@ -9,9 +9,9 @@ let newRol = ''
 
 /* looping dinamicaly throught items*/
 function feedHTML(item){
-   
+    
 let newRender = ''
-return item.forEach(function(items){
+item.forEach(function(items){
 newRender = `
 <div class="item">
 <div class="ctn" >
@@ -25,7 +25,8 @@ newRender = `
 </div>
 ` 
 })
-
+console.log(item)
+return item
 }
 console.log(feedHTML)
 function render(){
