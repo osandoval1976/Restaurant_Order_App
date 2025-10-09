@@ -23,24 +23,25 @@ function myFunction(item){
 
 /* looping dinamicaly throught items*/
 function feedHTML(item){
-    
-let newRender = ''
-item.forEach(function(items){
-newRender = `
-<div class="item">
-<div class="ctn" >
-<p class="btn">+</p>
+ let html = ''
+elem.forEach(function(items){
+html+= `
+
+<div class="ctn">
+<span class="btn" data-role="user" data-id=${items.id}>+</span>
 <h1 class="emoji">${items.emoji}</h1>
-<p class="name">${items.name}</p>
-<p class="ingredients" >${items.ingredients}</p>
-<p class="price" > $${items.price}</p>
-<p class="Hidden" >${items.id}</p>
+<span>${items.name}</span>
+<span>${items.ingredients}</span>
+<span> $ ${items.price}</span>
+<span>${items.id}</span>
 </div>
-</div>
-` 
+`
+
 })
-console.log(item)
-return item
+
+ return html
+   
+
 }
 console.log(feedHTML)
 function render(){
