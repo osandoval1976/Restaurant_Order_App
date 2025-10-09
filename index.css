@@ -59,3 +59,10 @@ top: 405px;
 color: blue;
 margin: 0 10px;
 }
+.box{
+display: flex;
+position: relative;
+top: 45px;
+color: blue;
+margin: 80px 10px;
+}
