@@ -52,13 +52,31 @@ margin-bottom: 12px;
   padding-right: 10px;
 }
  
-.item{
+
+
+.ctn{
+display:flexbox;
+position: relative;
+top: 35px;
+color: blue;
+padding: 65px 0px;
+margin: 10px 20px;
+}
+
+
+
+.btn{
+  display:flex;
+  padding: 5px 0 10px 0;
+  border-radius: 1px solid blue;
+}
+ .emoji{
 display: flex;
 position: relative;
-top: 405px;
-color: blue;
-margin: 0 10px;
-}
+top: 5px;
+padding: 2px 5px;
+ }
+ 
 .box{
 display: flex;
 position: relative;
