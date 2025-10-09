@@ -4,9 +4,17 @@ const newFeed = document.getElementById('newList')
 const newTotal = document.getElementById('newTotal')
 let newElem = []
 let newRol = ''
-
-function myFunction(){
-   
+document.addEventListener('click', function(e){
+if(e.target.dataset.id){
+myFunction(e.target.dataset.id) 
+}
+})
+function myFunction(item){
+ const array = menuArray.filter(elem =>{
+  if(elem.id){
+  return elem.id === item
+  }
+})  
     const menu =  menuArray.reduce((accumulator, currentValue)=> {
       return accumulator  + currentValue.price}, 0)
   console.log(`total :$${menu}`)
