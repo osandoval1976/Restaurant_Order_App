@@ -5,7 +5,13 @@ const newTotal = document.getElementById('newTotal')
 let newElem = []
 let newRol = ''
 
-
+function myFunction(){
+   
+    const menu =  menuArray.reduce((accumulator, currentValue)=> {
+      return accumulator  + currentValue.price}, 0)
+  console.log(`total :$${menu}`)
+ }
+    
 
 /* looping dinamicaly throught items*/
 function feedHTML(item){
