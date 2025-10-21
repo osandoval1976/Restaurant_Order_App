@@ -1,51 +1,85 @@
-import {menuArray} from './data.js'
-console.log(menuArray)
+import {menuArray} from '/data.js'
 const newFeed = document.getElementById('newList')
-const newTotal = document.getElementById('newTotal')
-let newElem = []
-let newRol = ''
-document.addEventListener('click', function(e){
+const newRol = document.getElementById('newRol')
+
+document.addEventListener('click', function(e){ 
 if(e.target.dataset.id){
 myFunction(e.target.dataset.id) 
 }
-})
-function myFunction(item){
- const array = menuArray.filter(elem =>{
-  if(elem.id){
-  return elem.id === item
-  }
 })  
-    const menu =  menuArray.reduce((accumulator, currentValue)=> {
-      return accumulator  + currentValue.price}, 0)
-  console.log(`total :$${menu}`)
- }
-    
 
+
+
+
+
+
+function myFunction(id){
+let html = ''
+let htmlTotal =''
+const all = menuArray.filter(elem=>{
+return elem.id == id
+})
+let x = ""
+let y = ""
+let z = ""
+for(let i of all){
+  x =i.name
+  y =i.price
+  z = i.id
+  html = `<div class="box">
+  <p>${x}</p> <p data-total=${y}>${y}</p>
+  </div> `
+}  
+ 
+ newFeed.innerHTML += html
+getSum(y)
+render()
+return all  
+} 
+let a =[]
+function getSum(total){
+let x = []
+
+let b =[]
+let c =[]
+let z = [total]
+for(let i of z){
+  x.push(i)
+  if(x < 14){
+    a.push(i)
+  
+  }if(x == 14){
+    a.push(i)
+    
+  }
+  
+}
+let ordersTotal = a.reduce((acc, acu)=>acc+acu, 0)
+newRol.innerHTML = `<div class="box1">Total: ${ordersTotal}</div>`
+console.log(ordersTotal)
+return total
+}
 /* looping dinamicaly throught items*/
-function feedHTML(item){
- let html = ''
+function feedHTML(elem){
+let html = ''
 elem.forEach(function(items){
 html+= `
 
 <div class="ctn">
-<span class="btn" data-role="user" data-id=${items.id}>+</span>
+<span class="btn" data-role="user" data-id=${items.id} data-p=${items.price}>+</span>
 <h1 class="emoji">${items.emoji}</h1>
-<span>${items.name}</span>
-<span>${items.ingredients}</span>
-<span> $ ${items.price}</span>
-<span>${items.id}</span>
+<p>${items.name}</p>
+<p>${items.ingredients}</p>
+<p data-role="user" data-id=${items.id}> $ ${items.price}</p>
+<p class="hidden">${items.id}</p>
 </div>
 `
 
 })
 
  return html
-   
-
-}
-console.log(feedHTML)
+} 
 function render(){
 document.getElementById('newHTML').innerHTML = feedHTML(menuArray)
 }
 render()
-
