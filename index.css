@@ -1,5 +1,5 @@
 body {
-  
+  box-sizing: border-box;
   margin: 0;
   
 }
@@ -52,35 +52,112 @@ margin-bottom: 12px;
   padding-right: 10px;
 }
  
-
-
 .ctn{
 display:flexbox;
-position: relative;
 top: 35px;
 color: blue;
-padding: 65px 0px;
-margin: 10px 20px;
+padding: 65px 20px;
+margin: 60px 2px -140px 2px;
+line-height: 0.5em;
+
 }
-
-
-
-.btn{
-  display:flex;
-  padding: 5px 0 10px 0;
-  border-radius: 1px solid blue;
-}
- .emoji{
-display: flex;
-position: relative;
-top: 5px;
-padding: 2px 5px;
- }
+.border{
+  display: inline-block;
+ border-bottom: 1px solid blue; 
  
+}
+.btn{
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  padding: 10px 15px;
+  border:1px solid lightgray ;
+}
+
+ .btn{
+  display:flex;
+  margin: 10px 35px -18px 270px;
+  
+  
+}
+ .ctn> .emoji{
+display: flex;
+position: absolute;
+margin-left: -75px;
+font-size: 45px;
+ }
+ .hidden{
+  display: none;
+ }
 .box{
 display: flex;
 position: relative;
-top: 45px;
 color: blue;
-margin: 80px 10px;
+margin: -125px 40px;
+padding-right: 205px;
+ 
+
+}
+
+
+
+.total{
+  display: flex;
+  position: absolute;
+  margin-top: 25px;
+}
+.name{
+  display:block; 
+  margin-left: 95px;
+  line-height:0.5px ;
+  margin: -5px 35px;
+  padding: 35px 2px -80px 2px;
+}
+ .price{
+  display: block;
+  margin-top: 2px;
+  margin-left:  313px;
+  padding-left: 15px;
+  line-height:0.5px ;
+}
+.ordersBox{
+  display: block;
+  position: ab;
+  line-height: 2.5px;
+  padding: 20px 5px -20px 5px;
+  margin: 180px 40px -175px 40px;
+  }
+.oTotal{
+  
+  position: absolute;
+  margin: 150px 0px 0 -9px;
+  padding-left:285px;
+  border-top:1px solid burlywood
+}
+.tPrice{
+  
+  position: relative;
+  margin: 150px 15px 0 -9px;
+  padding-right: 15px;
+  padding-left: -155px;
+  border-top:1px solid burlywood
+}
+
+
+.nOrders{
+  display: flex;
+  position: absolute;
+  visibility: false;
+  top: 720px;
+  margin-left: 120px;
+  margin-top: 90px;
+  
+}
+.cOrders{
+  position: absolute;
+  margin-left: 50px;
+  margin-right: 230px;
+  margin-top: 250px;
+  padding: 3px 65px;
+  background-color: greenyellow;
 }
