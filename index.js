@@ -1,71 +1,84 @@
 import {menuArray} from '/data.js'
+const newRender = document.getElementById('newHTML')
 const newFeed = document.getElementById('newList')
 const newRol = document.getElementById('newRol')
+const newText = document.getElementById('newText')
+
+
 
 document.addEventListener('click', function(e){ 
 if(e.target.dataset.id){
 myFunction(e.target.dataset.id) 
 }
-})  
+}) 
 
-
-
-
-
-
+let a =[]
 function myFunction(id){
 let html = ''
-let htmlTotal =''
-const all = menuArray.filter(elem=>{
+/*filtering data-id --- elem.id*/
+const all = menuArray.filter(elem=>{ 
 return elem.id == id
 })
+
+/*Rendering the list of items*/
 let x = ""
 let y = ""
 let z = ""
+
 for(let i of all){
   x =i.name
   y =i.price
   z = i.id
-  html = `<div class="box">
-  <p>${x}</p> <p data-total=${y}>${y}</p>
-  </div> `
-}  
  
- newFeed.innerHTML += html
-getSum(y)
-render()
-return all  
+  newFeed.innerHTML += `
+  <div class="ordersBox">
+  <div class="name">
+  <p id="Move">${x}</p>
+   </div>
+   <div class="price"><p id="Move">$${y}</p></div>
+   </div>
+  `
 } 
-let a =[]
-function getSum(total){
-let x = []
-
-let b =[]
-let c =[]
-let z = [total]
-for(let i of z){
-  x.push(i)
-  if(x < 14){
-    a.push(i)
-  
-  }if(x == 14){
-    a.push(i)
-    
-  }
-  
+ 
+ 
+/*Total Orders*/ 
+if(y < 14){
+    a.push(y)
+}if(y == 14){
+    a.push(y)
 }
 let ordersTotal = a.reduce((acc, acu)=>acc+acu, 0)
-newRol.innerHTML = `<div class="box1">Total: ${ordersTotal}</div>`
-console.log(ordersTotal)
-return total
+
+/*displaying to the screen the list of items && Total Orders*/
+
+newRol.innerHTML = `<div class="box">
+                    <span class="total">
+                    <p class="tPrice">Total Price:</p> 
+                    <p class="oTotal">$${ordersTotal}<p>
+                    </span>
+                    </div>`
+
+let payOrders = ''
+payOrders  = `<div class="ctn">
+<p class="nOrders">Your Orders</p>
+<button class="cOrders">Complete Order</button>
+</div>`
+newText.innerHTML = payOrders
+
+
+return all 
 }
+
+
+
 /* looping dinamicaly throught items*/
-function feedHTML(elem){
+function feedHTML(){
 let html = ''
-elem.forEach(function(items){
+menuArray.forEach(function(items){
 html+= `
 
 <div class="ctn">
+<div class="border">
 <span class="btn" data-role="user" data-id=${items.id} data-p=${items.price}>+</span>
 <h1 class="emoji">${items.emoji}</h1>
 <p>${items.name}</p>
@@ -73,13 +86,12 @@ html+= `
 <p data-role="user" data-id=${items.id}> $ ${items.price}</p>
 <p class="hidden">${items.id}</p>
 </div>
+</div>
 `
 
 })
-
+newRender.innerHTML = html
  return html
 } 
-function render(){
-document.getElementById('newHTML').innerHTML = feedHTML(menuArray)
-}
-render()
+
+feedHTML()
