@@ -63,7 +63,7 @@ line-height: 0.5em;
 }
 .border{
   display: inline-block;
- border-bottom: 1px solid blue; 
+ border-bottom: 2px solid burlywood; 
  
 }
 .btn{
@@ -71,12 +71,12 @@ line-height: 0.5em;
   width: 10px;
   height: 10px;
   padding: 10px 15px;
-  border:1px solid lightgray ;
+  border:1.5px solid burlywood ;
 }
 
  .btn{
   display:flex;
-  margin: 10px 35px -18px 270px;
+  margin: 10px 35px -68px 270px;
   
   
 }
@@ -150,7 +150,7 @@ padding-right: 205px;
   visibility: false;
   top: 720px;
   margin-left: 120px;
-  margin-top: 90px;
+  margin-top: -60px;
   
 }
 .cOrders{
