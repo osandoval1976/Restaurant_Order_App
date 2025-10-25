@@ -73,7 +73,9 @@ line-height: 0.5em;
   padding: 10px 15px;
   border:1.5px solid burlywood ;
 }
-
+#idBtn{
+  display: none;
+}
  .btn{
   display:flex;
   margin: 10px 35px -68px 270px;
@@ -95,11 +97,7 @@ position: relative;
 color: blue;
 margin: -125px 40px;
 padding-right: 205px;
- 
-
 }
-
-
 
 .total{
   display: flex;
@@ -120,9 +118,9 @@ padding-right: 205px;
   padding-left: 15px;
   line-height:0.5px ;
 }
+
 .ordersBox{
-  display: block;
-  position: ab;
+  position: relative;
   line-height: 2.5px;
   padding: 20px 5px -20px 5px;
   margin: 180px 40px -175px 40px;
@@ -159,5 +157,43 @@ padding-right: 205px;
   margin-right: 230px;
   margin-top: 250px;
   padding: 3px 65px;
-  background-color: greenyellow;
+  background-color: aquamarine;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
 }
