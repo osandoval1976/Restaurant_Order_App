@@ -1,4 +1,3 @@
-
 <html lang="en">
  <head>
   <meta charset="utf-8">
@@ -29,12 +28,23 @@
   
   </div>
 <!-- The Modal -->
-<div id="myModal" class="modal">
+<div id="myModal" class="modal"> 
 <!-- Modal content -->
 <div class="modal-content">
  <span class="close">&times;</span>
-    <p>Some text in the Modal..</p>
-  </div>
+  <form class="cardHolder" id='form'>
+      <h3 class="cardDetails">Enter Card Details</h3>
+      <p><label for="name"></label></p>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required><br>
+       <p><label for="cardNumber"></label></p>
+      <input type="text" inputmode="numeric" id="carnNumber" name="carnNumber" placeholder="Enter your Card Number" pattern="[0-9\\s]{13,19}" 
+  maxlength="19" required><br>
+       <p><label for="Cvv"></label></p>
+      <input type="text" inputmode="numeric" id="Cvv" name="Cvv" placeholder="Enter your CVV" pattern="[0-9\\s]{1,3}" 
+  maxlength="3" required><br>
+ <button type="submit" class="payBtn" id="payBtn" value="submit">Pay</button>
+      </form>
+   </div>
 
 </div>
 <div class="ctn" id="myBtn">
@@ -47,24 +57,6 @@
 </body>
 
 </html>
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
 
 
 

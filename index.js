@@ -2,14 +2,8 @@ import {menuArray} from '/data.js'
 const newRender = document.getElementById('newHTML')
 const newFeed = document.getElementById('newList')
 const newRol = document.getElementById('newRol')
+const newText = document.getElementById('newText')
 
-/* trigger the hidde/show orders total*/
-const ordersBox = document.getElementById('idBtn')
-const ordersBtn = document.getElementsByClassName('ctn')
-
-document.onclick = function() {
-ordersBox.style.display = "block";
-} 
 
 /*get the modal*/
 const modal = document.getElementById("myModal")
@@ -17,6 +11,36 @@ const modal = document.getElementById("myModal")
 const btn = document.getElementById("myBtn");
 // Get the <span> element that closes the modal
 const span = document.getElementsByClassName("close")[0];
+/* trigger the hidde/show orders total*/
+const ordersBox = document.getElementById('idBtn')
+const ordersBoxs = document.getElementsByClassName("box")
+const payBtn =document.getElementById('payBtn')
+const name = document.getElementById('name')
+/*submit the form to prevent default behaviour*/
+const form = document.getElementById('form')
+
+console.log(ordersBoxs)
+payBtn.addEventListener('click', function(){
+modal.style.display = 'none'
+})
+
+form.addEventListener('submit', (e) => {
+e.preventDefault()
+
+const inputName = name.value
+ordersBox.style.display = 'none'
+newRol.style.display = 'none'
+newFeed.style.display = 'none'
+newText.innerHTML  =`<div class="tPurchase"><p> Thanks, ${inputName} !Your Order is on its way!</p></div>`
+})
+
+
+
+
+document.onclick = function() {
+ordersBox.style.display = "block";
+} 
+
 // When the user clicks the button, open the modal
 btn.onclick = function() {
 modal.style.display = "block";
@@ -83,10 +107,10 @@ let ordersTotal = a.reduce((acc, acu)=>acc+acu, 0)
 /*displaying to the screen the list of items && Total Orders*/
 
 newRol.innerHTML = `<div class="box">
-                    <span class="total">
+                    <div class="total">
                     <p class="tPrice">Total Price:</p> 
                     <p class="oTotal">$${ordersTotal}<p>
-                    </span>
+                    </div>
                     </div>`
 /* trigger / open the modal */
 

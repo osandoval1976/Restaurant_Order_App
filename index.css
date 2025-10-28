@@ -167,8 +167,8 @@ padding-right: 205px;
   padding-top: 100px; /* Location of the box */
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
+  width: 50%; /* Full width */
+  height: 120%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
@@ -196,4 +196,28 @@ padding-right: 205px;
   color: #000;
   text-decoration: none;
   cursor: pointer;
+}
+
+.cardHolder{
+  display:block;
+  margin: 0 30px;
+}
+
+.payBtn{
+ margin: 20px 5px;
+ height: 30px;
+ width: 200px;
+ background-color: aquamarine;
+}
+
+.cardDetails{
+  margin:2px 20px;
+}
+
+.tPurchase{
+ margin: 190px 45px;
+ padding: 5px 20px;
+ height: 60px;
+ width: 290px;
+ background-color: #ECFDF5;
 }
